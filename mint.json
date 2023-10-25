@@ -20,11 +20,6 @@
         "url": "https://dashboard.clerk.com/sign-up"
       }
     ],
-    "topAnchor": {
-        "name": "API Reference",
-        "icon": "api-reference",
-        "url": "square-terminal"
-    },
     "anchors": [
         {
             "name": "API Status",
@@ -44,7 +39,7 @@
       {
         "name": "Blog",
         "icon": "newspaper",
-        "url": ""
+        "url": "https://clerk.com/blog"
       }
     ],
     "navigation": [
@@ -294,10 +289,5 @@
               "api-reference/saml-connections-beta/update-a-saml-connection"
             ]
           }
-    ],
-    "footerSocials":
-      {
-          "twitter": "",
-          "linkedin": ""
-      }
+    ]
   }
