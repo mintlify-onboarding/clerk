@@ -11,19 +11,39 @@
       "dark": "#6C47FF"
     },
     "topbarCtaButton": {
-      "name": "",
-      "url": ""
+      "name": "Start Building",
+      "url": "https://dashboard.clerk.com/sign-in?redirect_url=https%3A%2F%2Fdashboard.clerk.com%2F"
     },
     "topbarLinks": [
       {
-        "name": "",
-        "url": ""
+        "name": "Sign Up",
+        "url": "https://dashboard.clerk.com/sign-up"
       }
     ],
+    "topAnchor": {
+        "name": "API Reference",
+        "icon": "api-reference",
+        "url": "square-terminal"
+    },
     "anchors": [
+        {
+            "name": "API Status",
+            "icon": "square-terminal",
+            "url": "https://status.clerk.com/"
+        },
+        {
+        "name": "Discord",
+        "icon": "discord",
+        "url": "https://clerk.com/#:~:text=Documentation-,Discord%20server,-Support"
+      },
       {
-        "name": "",
-        "icon": "",
+        "name": "Changelog",
+        "icon": "list-timeline",
+        "url": "https://clerk.com/changelog"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
         "url": ""
       }
     ],
