@@ -1,0 +1,283 @@
+{
+    "name": "Clerk",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#6C47FF",
+      "light": "#8567FF",
+      "dark": "#6C47FF"
+    },
+    "topbarCtaButton": {
+      "name": "",
+      "url": ""
+    },
+    "topbarLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "anchors": [
+      {
+        "name": "",
+        "icon": "",
+        "url": ""
+      }
+    ],
+    "navigation": [
+        {
+            "group": "Miscellaneous",
+            "pages": [
+              "api-reference/miscellaneous/returns-the-markup-for-the-interstitial-page"
+            ]
+          },
+          {
+            "group": "JWKS",
+            "pages": [
+              "api-reference/jwks/retrieve-the-json-web-key-set-of-the-instance"
+            ]
+          },
+          {
+            "group": "Clients",
+            "pages": [
+              "api-reference/clients/list-all-clients",
+              "api-reference/clients/verify-a-client",
+              "api-reference/clients/get-a-client",
+              "api-reference/clients/get-the-last-active-session-of-a-client"
+            ]
+          },
+          {
+            "group": "Email Addresses",
+            "pages": [
+              "api-reference/email-addresses/create-an-email-address",
+              "api-reference/email-addresses/retrieve-an-email-address",
+              "api-reference/email-addresses/delete-an-email-address",
+              "api-reference/email-addresses/update-an-email-address"
+            ]
+          },
+          {
+            "group": "Phone Numbers",
+            "pages": [
+              "api-reference/phone-numbers/create-a-phone-number",
+              "api-reference/phone-numbers/retrieve-a-phone-number",
+              "api-reference/phone-numbers/delete-a-phone-number",
+              "api-reference/phone-numbers/update-a-phone-number"
+            ]
+          },
+          {
+            "group": "Sessions",
+            "pages": [
+              "api-reference/sessions/list-all-sessions",
+              "api-reference/sessions/retrieve-a-session",
+              "api-reference/sessions/revoke-a-session",
+              "api-reference/sessions/verify-a-session",
+              "api-reference/sessions/create-a-session-token-from-a-jwt-template"
+            ]
+          },
+          {
+            "group": "Email & SMS Templates",
+            "pages": [
+              "api-reference/email-&-sms-templates/list-all-templates",
+              "api-reference/email-&-sms-templates/retrieve-a-template",
+              "api-reference/email-&-sms-templates/update-a-template-for-a-given-type-and-slug",
+              "api-reference/email-&-sms-templates/revert-a-template",
+              "api-reference/email-&-sms-templates/preview-changes-to-a-template",
+              "api-reference/email-&-sms-templates/toggle-the-delivery-by-clerk-for-a-template-of-a-given-type-and-slug"
+            ]
+          },
+          {
+            "group": "Users",
+            "pages": [
+              "api-reference/users/list-all-users",
+              "api-reference/users/create-a-new-user",
+              "api-reference/users/count-users",
+              "api-reference/users/retrieve-a-user",
+              "api-reference/users/delete-a-user",
+              "api-reference/users/update-a-user",
+              "api-reference/users/ban-a-user",
+              "api-reference/users/unban-a-user",
+              "api-reference/users/lock-a-user",
+              "api-reference/users/unlock-a-user",
+              "api-reference/users/set-user-profile-image",
+              "api-reference/users/merge-and-update-a-users-metadata",
+              "api-reference/users/retrieve-the-oauth-access-token-of-a-user",
+              "api-reference/users/retrieve-all-memberships-for-a-user",
+              "api-reference/users/verify-the-password-of-a-user",
+              "api-reference/users/verify-a-totp-or-backup-code-for-a-user",
+              "api-reference/users/disable-a-users-mfa-methods"
+            ]
+          },
+          {
+            "group": "Emails",
+            "pages": [
+              "api-reference/emails/create-an-email"
+            ]
+          },
+          {
+            "group": "SMS Messages",
+            "pages": [
+              "api-reference/sms-messages/create-an-sms-message"
+            ]
+          },
+          {
+            "group": "Invitations",
+            "pages": [
+              "api-reference/invitations/list-all-invitations",
+              "api-reference/invitations/create-an-invitation",
+              "api-reference/invitations/revokes-an-invitation"
+            ]
+          },
+          {
+            "group": "Allow-list / Block-list",
+            "pages": [
+              "api-reference/allow-list-block-list/list-all-identifiers-on-the-allow-list",
+              "api-reference/allow-list-block-list/add-identifier-to-the-allow-list",
+              "api-reference/allow-list-block-list/delete-identifier-from-allow-list",
+              "api-reference/allow-list-block-list/list-all-identifiers-on-the-block-list",
+              "api-reference/allow-list-block-list/add-identifier-to-the-block-list",
+              "api-reference/allow-list-block-list/delete-identifier-from-block-list"
+            ]
+          },
+          {
+            "group": "Beta Features",
+            "pages": [
+              "api-reference/beta-features/update-instance-settings",
+              "api-reference/beta-features/update-production-instance-domain",
+              "api-reference/beta-features/update-production-instance-domain-1"
+            ]
+          },
+          {
+            "group": "Actor Tokens",
+            "pages": [
+              "api-reference/actor-tokens/create-actor-token",
+              "api-reference/actor-tokens/revoke-actor-token"
+            ]
+          },
+          {
+            "group": "Domains",
+            "pages": [
+              "api-reference/domains/list-all-instance-domains",
+              "api-reference/domains/add-a-domain",
+              "api-reference/domains/delete-a-satellite-domain",
+              "api-reference/domains/update-a-domain"
+            ]
+          },
+          {
+            "group": "Instance Settings",
+            "pages": [
+              "api-reference/instance-settings/update-instance-settings",
+              "api-reference/instance-settings/update-instance-restrictions",
+              "api-reference/instance-settings/update-instance-organization-settings"
+            ]
+          },
+          {
+            "group": "Webhooks",
+            "pages": [
+              "api-reference/webhooks/create-a-svix-app",
+              "api-reference/webhooks/delete-a-svix-app",
+              "api-reference/webhooks/create-a-svix-dashboard-url"
+            ]
+          },
+          {
+            "group": "JWT Templates",
+            "pages": [
+              "api-reference/jwt-templates/list-all-templates",
+              "api-reference/jwt-templates/create-a-jwt-template",
+              "api-reference/jwt-templates/retrieve-a-template",
+              "api-reference/jwt-templates/delete-a-template",
+              "api-reference/jwt-templates/update-a-jwt-template"
+            ]
+          },
+          {
+            "group": "Organizations",
+            "pages": [
+              "api-reference/organizations/get-a-list-of-organizations-for-an-instance",
+              "api-reference/organizations/create-an-organization",
+              "api-reference/organizations/retrieve-an-organization-by-id-or-slug",
+              "api-reference/organizations/delete-an-organization",
+              "api-reference/organizations/update-an-organization",
+              "api-reference/organizations/merge-and-update-metadata-for-an-organization",
+              "api-reference/organizations/upload-a-logo-for-the-organization",
+              "api-reference/organizations/delete-organizations-logo"
+            ]
+          },
+          {
+            "group": "Organization Invitations",
+            "pages": [
+              "api-reference/organization-invitations/get-a-list-of-organization-invitations",
+              "api-reference/organization-invitations/create-and-send-an-organization-invitation",
+              "api-reference/organization-invitations/bulk-create-and-send-organization-invitations",
+              "api-reference/organization-invitations/get-a-list-of-pending-organization-invitations",
+              "api-reference/organization-invitations/retrieve-an-organization-invitation-by-id",
+              "api-reference/organization-invitations/revoke-a-pending-organization-invitation"
+            ]
+          },
+          {
+            "group": "Organization Memberships",
+            "pages": [
+              "api-reference/organization-memberships/get-a-list-of-all-members-of-an-organization",
+              "api-reference/organization-memberships/create-a-new-organization-membership",
+              "api-reference/organization-memberships/remove-a-member-from-an-organization",
+              "api-reference/organization-memberships/update-an-organization-membership",
+              "api-reference/organization-memberships/merge-and-update-organization-membership-metadata"
+            ]
+          },
+          {
+            "group": "Proxy checks",
+            "pages": [
+              "api-reference/proxy-checks/verify-the-proxy-configuration-for-your-domain"
+            ]
+          },
+          {
+            "group": "Redirect URLs",
+            "pages": [
+              "api-reference/redirect-urls/list-all-redirect-urls",
+              "api-reference/redirect-urls/create-a-redirect-url",
+              "api-reference/redirect-urls/retrieve-a-redirect-url",
+              "api-reference/redirect-urls/delete-a-redirect-url"
+            ]
+          },
+          {
+            "group": "Sign-in Tokens",
+            "pages": [
+              "api-reference/sign-in-tokens/create-sign-in-token",
+              "api-reference/sign-in-tokens/revoke-the-given-sign-in-token"
+            ]
+          },
+          {
+            "group": "Sign-ups",
+            "pages": [
+              "api-reference/sign-ups/update-a-sign-up"
+            ]
+          },
+          {
+            "group": "OAuth Applications",
+            "pages": [
+              "api-reference/oauth-applications/get-a-list-of-oauth-applications-for-an-instance",
+              "api-reference/oauth-applications/create-an-oauth-application",
+              "api-reference/oauth-applications/retrieve-an-oauth-application-by-id",
+              "api-reference/oauth-applications/delete-an-oauth-application",
+              "api-reference/oauth-applications/update-an-oauth-application",
+              "api-reference/oauth-applications/rotate-the-client-secret-of-the-given-oauth-application"
+            ]
+          },
+          {
+            "group": "SAML Connections (Beta)",
+            "pages": [
+              "api-reference/saml-connections-beta/get-a-list-of-saml-connections-for-an-instance",
+              "api-reference/saml-connections-beta/create-a-saml-connection",
+              "api-reference/saml-connections-beta/retrieve-a-saml-connection-by-id",
+              "api-reference/saml-connections-beta/delete-a-saml-connection",
+              "api-reference/saml-connections-beta/update-a-saml-connection"
+            ]
+          }
+    ],
+    "footerSocials":
+      {
+          "twitter": "",
+          "linkedin": ""
+      }
+  }
