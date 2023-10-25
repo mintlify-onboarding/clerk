@@ -10,6 +10,11 @@
       "light": "#8567FF",
       "dark": "#6C47FF"
     },
+    "api": {
+      "auth": {
+          "method": "bearer"
+      }
+  },
     "topbarCtaButton": {
       "name": "Start Building",
       "url": "https://dashboard.clerk.com/sign-in?redirect_url=https%3A%2F%2Fdashboard.clerk.com%2F"
@@ -20,10 +25,14 @@
         "url": "https://dashboard.clerk.com/sign-up"
       }
     ],
+    "topAnchor": {
+      "name": "API Reference",
+      "icon":"square-terminal"
+  },
     "anchors": [
         {
             "name": "API Status",
-            "icon": "square-terminal",
+            "icon": "signal-bars",
             "url": "https://status.clerk.com/"
         },
         {
@@ -35,11 +44,6 @@
         "name": "Changelog",
         "icon": "list-timeline",
         "url": "https://clerk.com/changelog"
-      },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://clerk.com/blog"
       }
     ],
     "navigation": [
